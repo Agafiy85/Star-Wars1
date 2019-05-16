@@ -9,7 +9,7 @@ window.onload = function(){
 // 
 
 let xhr = new XMLHttpRequest();
-xhr.open("GET", "https://swapi.co/api/people", true);
+xhr.open("GET", "https://swapi.co/api/people/?2", true);
 xhr.send();
 xhr.onreadystatechange = function () {
     if (xhr.readyState != 4) return;
@@ -57,4 +57,11 @@ let HeroesTable = (data) => {
     }
 }
 
+(function() {
+  (dark-pagination).pagination({
+      items: 87,
+      itemsOnPage: 10,
+      cssStyle: 'light-theme'
+  });
+});
 
