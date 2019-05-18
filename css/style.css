@@ -145,6 +145,8 @@
 
 .loginForm{
 	display:flex;
+	margin-left: 300px;
+    padding-top: 30px;
 }
 
 
@@ -165,7 +167,7 @@ h1{
     font-size: 50px;
 }
 body {
-    background: linear-gradient(35deg, #4f0458, #798109, #940202);
+    background: linear-gradient(35deg, #29032e, #040b40, #340606);
     font-size: 10px;
 }
 table {
